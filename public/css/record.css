@@ -1,0 +1,71 @@
+/*
+by nzl1998
+* WebSite:www.iacblog.com
+*/
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+#app
+{
+    width: 100%;
+    height: 100%;
+    background: #F6F6F6;
+}
+
+.title
+{
+    font-weight: 500;
+    font-size: 45px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.content
+{
+    width: 1020px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header .header-header
+{
+    background: #3f51b5;
+    padding: 100px 50px 60px 50px;
+    margin-bottom: 30px;
+}
+
+.main .main-art
+{
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+.main .main-art h3
+{
+    color: #3f51b5;
+    margin-bottom: 20px;
+    padding-top: 56px;
+    margin-top: -56px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.main .main-art .card
+{
+    padding: 20px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(151,151,151,0.58);
+}
