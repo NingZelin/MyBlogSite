@@ -113,13 +113,13 @@
 
                     <li>
 
-                        <a href="/#" target="_blank" title="求职简历">求职简历</a>
+                        <a href="/#"  title="求职简历">求职简历</a>
 
                     </li>
 
                     <li>
 
-                        <a href="/#" target="_blank" title="工作履历">工作履历</a>
+                        <a href="/#"  title="工作履历">工作履历</a>
 
                     </li>
 
