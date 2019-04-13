@@ -3020,5 +3020,18 @@
     font-size: 35px;
 }
 
+.gohome{
+    position: fixed;
+    bottom:110px;
+    right: 50px;
+    width: 55px;
+    height: 55px;
+    background: #c5c5c5;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    text-align: center;
+}
 
-
+.gohome i{
+    font-size: 35px;
+}

@@ -10,7 +10,11 @@
     <link rel="stylesheet" type="text/css" href="/css/index.css"/>
     <link rel="stylesheet" type="text/css" href="/css/cssreset.css"/>
     <link rel="shortcut icon" href="/favicon.ico" />
-    <script src="https://cdn.bootcss.com/vue/2.6.10/vue.js"></script>
+    @if ($data === true)
+        <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
+    @else
+        <script src="https://cdn.bootcss.com/vue/2.6.10/vue.js"></script>
+    @endif
 </head>
 <script>
 	// document.oncontextmenu = function () { return false; };

@@ -4,15 +4,16 @@ by nzl1998
 */
 
 
-#app{
+#app {
     background: #F6F6F6;
 }
 
-.top{
+.top {
     background: #00a0ff;
     width: 100%;
 }
-.flex{
+
+.flex {
     position: fixed;
     top: 0;
     z-index: 2;
@@ -20,7 +21,8 @@ by nzl1998
     color: #ffffff;
     background: #00a0ff;
 }
-.header{
+
+.header {
     position: relative;
     z-index: 99;
     margin: 0 auto;
@@ -28,61 +30,67 @@ by nzl1998
     font-weight: 500;
     color: #ffffff;
 }
-.footer{
+
+.footer {
     width: 100%;
     font-weight: 500;
-    color: rgba(255,255,255,0.6);
+    color: rgba(255, 255, 255, 0.6);
     background: #00a0ff;
 }
 
-.container{
+.container {
     width: 100%;
 }
 
-.topinfo{
+.topinfo {
     background: #ffffff;
     border-radius: 5px;
     max-width: 1050px;
-    box-shadow: 0 1px 2px rgba(151,151,151,0.58);
+    box-shadow: 0 1px 2px rgba(151, 151, 151, 0.58);
     border-left: 4px solid #00a0ff;
     color: #6e6e6e;
     font-size: 14px;
     padding: 16px 20px;
 }
 
-.cards{
+.cards {
     max-width: 1090px;
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
 }
-.cards >.card{
+
+.cards > .card {
     width: 44%;
+    min-width: 335px;
 }
-.card{
+
+.card {
     border-top: 2px solid #00a0ff;
     padding: 20px;
     background: #ffffff;
     border-radius: 3px;
-    box-shadow: 0 1px 2px rgba(151,151,151,0.58)
+    box-shadow: 0 1px 2px rgba(151, 151, 151, 0.58)
 }
 
-.card h3{
+.card h3 {
     color: #00a0ff;
     font-size: 20px;
     font-weight: 400;
 }
-.card ul{
+
+.card ul {
     color: #010101;
     font-size: 14px;
     line-height: 30px;
 }
-.card .title{
+
+.card .title {
     font-size: 16px;
     font-weight: 500;
 }
 
-.card blockquote{
+.card blockquote {
     position: relative;
     padding: 16px 20px;
     border-left: 4px solid #00a0ff;
@@ -92,14 +100,16 @@ by nzl1998
     border-radius: 0 2px 2px 0;
 }
 
-.bigtitle{
+.bigtitle {
     color: #00a0ff;
     max-width: 1050px;
     font-weight: 500;
 }
-.lump{
-    width: 1050px;
+
+.lump {
+    max-width: 1050px;
 }
-.lump .speech{
+
+.lump .speech {
 
 }

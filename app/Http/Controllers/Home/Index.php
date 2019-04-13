@@ -14,19 +14,27 @@
 
     class Index extends Controller
     {
+        protected $onlineStatus = '';
+        
+        public function __construct()
+        {
+            $this->onlineStatus = config('app.online',true);
+        }
+    
         public function index()
         {
-            return view('home.index');
+            return view('home.index')->with('data',$this->onlineStatus);
         }
         
         
         public function resume()
         {
-            return view('home.resume');
+//            dump($status);
+            return view('home.resume')->with('data',$this->onlineStatus);
         }
         
         public function record()
         {
-            return view('home.record');
+            return view('home.record')->with('data',$this->onlineStatus);
         }
     }
