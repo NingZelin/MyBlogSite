@@ -2,3 +2,104 @@
 by nzl1998
 * WebSite:www.iacblog.com
 */
+
+
+#app{
+    background: #F6F6F6;
+}
+
+.top{
+    background: #00a0ff;
+    width: 100%;
+}
+.flex{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    color: #ffffff;
+    background: #00a0ff;
+}
+.header{
+    position: relative;
+    z-index: 99;
+    margin: 0 auto;
+    max-width: 1050px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.footer{
+    width: 100%;
+    font-weight: 500;
+    color: rgba(255,255,255,0.6);
+    background: #00a0ff;
+}
+
+.container{
+    width: 100%;
+}
+
+.topinfo{
+    background: #ffffff;
+    border-radius: 5px;
+    max-width: 1050px;
+    box-shadow: 0 1px 2px rgba(151,151,151,0.58);
+    border-left: 4px solid #00a0ff;
+    color: #6e6e6e;
+    font-size: 14px;
+    padding: 16px 20px;
+}
+
+.cards{
+    max-width: 1090px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.cards >.card{
+    width: 44%;
+}
+.card{
+    border-top: 2px solid #00a0ff;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(151,151,151,0.58)
+}
+
+.card h3{
+    color: #00a0ff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.card ul{
+    color: #010101;
+    font-size: 14px;
+    line-height: 30px;
+}
+.card .title{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card blockquote{
+    position: relative;
+    padding: 16px 20px;
+    border-left: 4px solid #00a0ff;
+    color: #6e6e6e;
+    background: #f5f5f5;
+    font-size: 14px;
+    border-radius: 0 2px 2px 0;
+}
+
+.bigtitle{
+    color: #00a0ff;
+    max-width: 1050px;
+    font-weight: 500;
+}
+.lump{
+    width: 1050px;
+}
+.lump .speech{
+
+}
