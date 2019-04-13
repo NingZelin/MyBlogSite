@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/css/util.css"/>
     <link rel="stylesheet" type="text/css" href="/css/index.css"/>
     <link rel="shortcut icon" href="/favicon.ico" />
+    <script src="https://cdn.bootcss.com/vue/2.6.10/vue.js"></script>
 </head>
 <script>
 	// document.oncontextmenu = function () { return false; };
@@ -80,7 +81,7 @@
 
                     <li>
 
-                        <a href="https://www.zelblog.com" target="_blank" title="本人博客">本人博客</a>
+                        <a href="https://www.zelblog.com"  title="本人博客">本人博客</a>
 
                     </li>
 
