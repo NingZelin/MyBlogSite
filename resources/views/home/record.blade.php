@@ -7,7 +7,8 @@
     <link rel="stylesheet" type="text/css" href="/css/util.css"/>
     <link rel="stylesheet" type="text/css" href="/css/record.css"/>
     <link rel="stylesheet" type="text/css" href="/css/cssreset.css"/>
-    @if ($data === true)
+    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_1070812_4fbdh7ysyki.css"/>
+@if ($data === true)
         <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
     @else
         <script src="https://cdn.bootcss.com/vue/2.6.10/vue.js"></script>
@@ -34,6 +35,7 @@
     </div>
     <div class="footer text-center p-t-35 p-b-35 fs-22 m-r-auto m-l-auto m-t-80">我感谢自己平凡，敢爱敢恨没负担；我感谢自己不凡，可爱可恨都包揽。</div>
     <div class="gotop" v-show="top" @click="goTop" id="to-top-btn"><i class="iconfont iconsend"></i></div>
+    <div class="gohome"  @click="goHome"><i class="iconfont iconfanhui"></i></div>
 </div>
 </body>
 <script>
@@ -65,6 +67,9 @@
 						clearTimeout (timer)
 					}
 				}, 16)
+			},
+			goHome(){
+				window.history.back(-1);
 			}
 		}
 	});
