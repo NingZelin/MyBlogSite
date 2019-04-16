@@ -92,7 +92,7 @@
 
                     <li>
 
-                        <a href="https://github.com/CrazyNing98" target="_blank" title="Github">Github</a>
+                        <a href="https://github.com/NiZerin" target="_blank" title="Github">Github</a>
 
                     </li>
 
