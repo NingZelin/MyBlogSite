@@ -29,7 +29,7 @@
 <body>
 <canvas id="sakura"></canvas>
 
-<div class="btnbg">
+<div class="btnbg" id="app">
 
     <div class="cs">
 
@@ -141,6 +141,11 @@
 </body>
 </html>
 
+<script>
+    const app = new Vue({
+	    el: '#app',
+    })
+</script>
 
 <!-- sakura shader -->
 
