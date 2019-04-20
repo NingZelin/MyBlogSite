@@ -45,7 +45,7 @@ by nzl1998
 
 .bigtitle {
     color: #00a0ff;
-    max-width: 1050px;
+    max-width: 1000px;
     font-weight: 500;
 }
 
@@ -53,7 +53,7 @@ by nzl1998
     max-width: 1090px;
     display: flex;
     flex-flow: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .card {
@@ -92,12 +92,12 @@ by nzl1998
 }
 
 .cards > .card {
-    width: 44%;
+    width: 42%;
     min-width: 335px;
 }
 
 .lump {
-    max-width: 1050px;
+    max-width: 1000px;
     font-size: 16px;
 }
 
