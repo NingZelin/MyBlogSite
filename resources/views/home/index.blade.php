@@ -59,10 +59,10 @@
                 <p>By：宁泽林</p>
                 <p>Time：2019-04-20</p>
             </div>
-        </div>
-        <div class="footer">
-            <p>本站访问量{{$visi['pv']}} --- 本站访客量{{$visi['uv']}}</p>
-            <p>Design By：<a href='https://github.com/NiZerin' target='_blank'>NiZerin<span style='color: #ff34c6'>❤</span></a> -- Write the code,Change the world.</p>
+            <div class="footer">
+                <p>本站访问量{{$visi['pv']}} --- 本站访客量{{$visi['uv']}}</p>
+                <p>Design By：<a href='https://github.com/NiZerin' target='_blank'>NiZerin<span style='color: #ff34c6'>❤</span></a> -- Write the code,Change the world.</p>
+            </div>
         </div>
     </div>
 </body>
