@@ -56,7 +56,7 @@
                 <blockquote class="m-b-20">Talk is cheap. Show me the code. - Linus Torvalds</blockquote>
                 <ul class="m-t-12 m-b-12 p-l-32 fs-14">
                     <li>GitHub：<a href="https://github.com/NiZerin" class="link">https://github.com/NiZerin</a></li>
-                    <li>技术博客：<a href="https://www.iacblog.com/" class="link">https://www.iacblog.com/</a></li>
+                    <li>技术博客：<a href="https://www.iacblog.com/" class="link">nizer.in</a></li>
                     <li>Laravel-China：<a href="https://learnku.com/users/32812" class="link">https://learnku.com/users/32812</a></li>
                 </ul>
             </div>
