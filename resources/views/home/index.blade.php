@@ -5,7 +5,6 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <title>宁泽林-一花一世界</title>
     <script type="application/javascript" src="/js/main.js"></script>
-    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
     <link rel="stylesheet" type="text/css" href="/css/util.css"/>
     <link rel="stylesheet" type="text/css" href="/css/index.css"/>
     <link rel="stylesheet" type="text/css" href="/css/cssreset.css"/>
@@ -16,128 +15,56 @@
         <script src="https://cdn.bootcss.com/vue/2.6.10/vue.js"></script>
     @endif
 </head>
-<script>
-	// document.oncontextmenu = function () { return false; };
-	// document.onkeydown = function () {
-	// 	if ( window.event && window.event.keyCode === 123 ) {
-	// 		event.keyCode = 0;
-	// 		event.returnValue = false;
-	// 		return false;
-	// 	}
-	// };
-</script>
 <body>
 <canvas id="sakura"></canvas>
-
-<div class="btnbg" id="app">
-
-    <div class="cs">
-
-        <div class="htmleaf-container">
-
-            <!--<nav class="animenu">-->
-
-
-            <!--<ul class="animenu__nav" style=" text-align:center">-->
-
-            <!--<li>-->
-
-            <!--<a href="https://1123412185.qzone.qq.com/" target="_blank" title="我的空间">我的空间</a>-->
-
-            <!--</li>-->
-
-            <!--<li>-->
-
-            <!--<a href="https://www.zelblog.com" title="泽林博客" target="_blank">泽林博客</a>-->
-
-            <!--</li>-->
-
-            <!--<li>-->
-
-            <!--<a href="https://github.com/CrazyNing98/jsdemo" target="_blank" title="Github">源码下载</a>-->
-
-
-            <!--</li>-->
-
-            <!--</ul>-->
-
-            <!--</nav>-->
-
-        </div>
-
-        <div class="center text-center">
-
-
-            <img src="https://cdn.iacblog.com/headphoto/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20181101001332.png" id="logo">
-
-
-            <!--<hr />-->
-
-            <nav class="animenu p-t-35">
-
-
-                <ul class="animenu__nav text-center">
-
+    <div id="app">
+        <div class="container">
+            <div class="name">
+                <p>@{{name}}</p>
+            </div>
+            <div class="headerImg">
+                <img :src="headerUrl" alt="" >
+            </div>
+            <div class="links">
+                <ul class="">
                     <li>
-
                         <a href="https://www.iacblog.com/" target="_blank" title="泽林博客">泽林博客</a>
-
                     </li>
-
                     <li>
-
-                        <a href="https://www.zelblog.com"  title="本人博客">本人博客</a>
-
+                        <a href="https://www.zelblog.com" target="_blank" title="本人博客" >本人博客</a>
                     </li>
-
                     <li>
-
-                        <a href="https://github.com/NiZerin" target="_blank" title="Github">Github</a>
-
+                        <a href="https://github.com/CrazyNing98" target="_blank" title="Github">Github</a>
                     </li>
-
                     <li>
-
                         <a href="https://laravel-china.org/users/32812" target="_blank" title="Laravel-China">Laravel-China</a>
-
                     </li>
-
                     <li>
-
                         <a href="https://juejin.im/user/5ba7b03be51d450e865809ff" target="_blank" title="掘金">掘金</a>
-
                     </li>
-
                 </ul>
-
-            </nav>
-            <nav class="animenu p-t-30">
-
-
-                <ul class="animenu__nav text-center">
-
-
+            </div>
+            <div class="links">
+                <ul class="">
                     <li>
-
-                        <a href="/#"  title="求职简历">求职简历</a>
-
+                        <a href="/resume" >求职简历</a>
                     </li>
-
                     <li>
-
-                        <a href="/#"  title="工作履历">工作履历</a>
-
+                        <a href="/record" >本人履历</a>
                     </li>
-
                 </ul>
-
-            </nav>
-
+            </div>
+            <div class="sign">
+                <p>只要我成长的够快，就连光也追不上我~~~</p>
+                <p>By：宁泽林</p>
+                <p>Time：2019-04-20</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>本站访问量{{$visi['pv']}} --- 本站访客量{{$visi['uv']}}</p>
+            <p>Design By：<a href='https://github.com/NiZerin' target='_blank'>NiZerin<span style='color: #ff34c6'>❤</span></a> -- Write the code,Change the world.</p>
         </div>
     </div>
-</div>
-
-
 </body>
 </html>
 
@@ -145,9 +72,10 @@
     const app = new Vue({
 	    el: '#app',
         data:{
-	    	name:"NiZerin-PHP 狂热爱好者"
+	    	name:"宁泽林(NiZerin) - PHP 狂热爱好者",
+            headerUrl:'https://cdn.iacblog.com/headphoto/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20181101001332.png'
         }
-    })
+    });
 </script>
 
 <!-- sakura shader -->

@@ -10,7 +10,9 @@
     namespace App\Http\Controllers\Home;
     
     
+    use App\Http\Controllers\Commom\Funcs;
     use App\Http\Controllers\Controller;
+    use Illuminate\Support\Facades\DB;
 
     class Index extends Controller
     {
@@ -18,12 +20,16 @@
         
         public function __construct()
         {
+            Funcs::setUV();
+            DB::table('visiter')->where('id',1)->increment('pv');
             $this->onlineStatus = config('app.online',true);
         }
     
         public function index()
         {
-            return view('home.index')->with('data',$this->onlineStatus);
+            $visi = DB::table('visiter')->find(1,['*']);
+            $visi = Funcs::toArray($visi);
+            return view('home.index')->with(['data'=>$this->onlineStatus,'visi'=>$visi]);
         }
         
         
