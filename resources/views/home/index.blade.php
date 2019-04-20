@@ -144,6 +144,9 @@
 <script>
     const app = new Vue({
 	    el: '#app',
+        data:{
+	    	name:"NiZerin-PHP 狂热爱好者"
+        }
     })
 </script>
 

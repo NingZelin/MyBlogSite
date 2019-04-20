@@ -48,6 +48,14 @@ by nzl1998
     max-width: 1050px;
     font-weight: 500;
 }
+
+.cards {
+    max-width: 1090px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
 .card {
     border-top: 2px solid #00a0ff;
     padding: 20px;
@@ -83,10 +91,25 @@ by nzl1998
     border-radius: 0 2px 2px 0;
 }
 
+.cards > .card {
+    width: 44%;
+    min-width: 335px;
+}
+
 .lump {
     max-width: 1050px;
     font-size: 16px;
 }
 
+.imgBox{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
 
+.imgBox img{
+    width: 100%;
+    border-radius: 3px;
+}
 

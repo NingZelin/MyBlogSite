@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="/css/util.css"/>
     <link rel="stylesheet" type="text/css" href="/css/resume.css"/>
     <link rel="stylesheet" type="text/css" href="/css/cssreset.css"/>
-    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_1070812_4fbdh7ysyki.css"/>
+    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_1070812_e23un57labj.css"/>
     @if ($data === true)
     <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
     @else
