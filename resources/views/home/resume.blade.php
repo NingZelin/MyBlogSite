@@ -55,15 +55,15 @@
                 <h3 class="text-center m-b-20">作品</h3>
                 <blockquote class="m-b-20">Talk is cheap. Show me the code. - Linus Torvalds</blockquote>
                 <ul class="m-t-12 m-b-12 p-l-32 fs-14">
-                    <li>GitHub：<a href="https://github.com/NiZerin" class="link">https://github.com/NiZerin</a></li>
-                    <li>技术博客：<a href="https://www.iacblog.com/" class="link">nizer.in</a></li>
-                    <li>Laravel-China：<a href="https://learnku.com/users/32812" class="link">https://learnku.com/users/32812</a></li>
+                    <li>GitHub：<a href="https://github.com/NiZerin" class="link">github.com/NiZerin</a></li>
+                    <li>技术博客：<a href="http://nizer.in/" class="link">nizer.in</a></li>
+                    <li>Laravel-China：<a href="https://learnku.com/users/32812" class="link">learnku.com/users/32812</a></li>
                 </ul>
             </div>
             <div class="card m-b-20">
                 <h3 class="text-center m-b-20">履历</h3>
                 <ul class="m-t-12 m-b-12 p-l-32 fs-14">
-                    <li>点击查看：<a href="/record" class="link">https://www.zelblog.com/record</a></li>
+                    <li>点击查看：<a href="/record" class="link">www.zelblog.com/record</a></li>
                 </ul>
                 <h3 class="text-center m-b-20">联系</h3>
                 <ul class="m-t-12 m-b-12 p-l-32 fs-14">
