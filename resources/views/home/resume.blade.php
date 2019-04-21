@@ -63,7 +63,7 @@
             <div class="card m-b-20">
                 <h3 class="text-center m-b-20">履历</h3>
                 <ul class="m-t-12 m-b-12 p-l-32 fs-14">
-                    <li>点击查看：<a href="/record" class="link">www.zelblog.com/record</a></li>
+                    <li>点击查看：<a href="/record" class="link">zelblog.com/record</a></li>
                 </ul>
                 <h3 class="text-center m-b-20">联系</h3>
                 <ul class="m-t-12 m-b-12 p-l-32 fs-14">

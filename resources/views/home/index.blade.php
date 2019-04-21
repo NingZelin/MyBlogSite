@@ -28,13 +28,7 @@
             <div class="links">
                 <ul class="">
                     <li>
-                        <a href="https://www.iacblog.com/" target="_blank" title="泽林博客">泽林博客</a>
-                    </li>
-                    <li>
-                        <a href="https://www.zelblog.com" target="_blank" title="本人博客" >本人博客</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/CrazyNing98" target="_blank" title="Github">Github</a>
+                        <a href="https://github.com/NiZerin" target="_blank" title="Github">Github</a>
                     </li>
                     <li>
                         <a href="https://laravel-china.org/users/32812" target="_blank" title="Laravel-China">Laravel-China</a>
@@ -47,10 +41,13 @@
             <div class="links">
                 <ul class="">
                     <li>
-                        <a href="/resume" >求职简历</a>
+                        <a href="https://www.iacblog.com/" target="_blank" title="Blog" >Blog</a>
                     </li>
                     <li>
-                        <a href="/record" >本人履历</a>
+                        <a href="/resume" >Resume</a>
+                    </li>
+                    <li>
+                        <a href="/record" >Record</a>
                     </li>
                 </ul>
             </div>
