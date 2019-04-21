@@ -15,34 +15,6 @@
     @endif
     <link rel="shortcut icon" href="/favicon.ico"/>
     <!-- Fonts -->
-    <script>
-	    document.oncontextmenu = function () { return false; };
-	    document.onkeydown = function () {
-		    if (window.event && window.event.keyCode === 123) {
-			    event.keyCode = 0;
-			    event.returnValue = false;
-			    return false;
-		    }
-	    };
-	    document.onkeydown = function(){
-		    if( event.ctrlKey ){
-			    return false;
-		    }
-		    if ( event.altKey ){
-			    return false;
-		    }
-		    if ( event.shiftKey ){
-			    return false;
-		    }
-	    };
-	    document.onselectstart = function(){
-		    event.returnValue = false;
-	    };
-	    // 或者直接返回整个事件
-	    document.onselectstart = function(){
-		    return false;
-	    }
-    </script>
 </head>
 <body>
 <div id="app">
@@ -181,5 +153,42 @@
 			}
 		}
 	});
+</script>
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?d467c50a418036fc968b34049f344a7f";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+<script>
+	document.oncontextmenu = function () { return false; };
+	document.onkeydown = function () {
+		if (window.event && window.event.keyCode === 123) {
+			event.keyCode = 0;
+			event.returnValue = false;
+			return false;
+		}
+	};
+	document.onkeydown = function(){
+		if( event.ctrlKey ){
+			return false;
+		}
+		if ( event.altKey ){
+			return false;
+		}
+		if ( event.shiftKey ){
+			return false;
+		}
+	};
+	document.onselectstart = function(){
+		event.returnValue = false;
+	};
+	// 或者直接返回整个事件
+	document.onselectstart = function(){
+		return false;
+	}
 </script>
 </html>

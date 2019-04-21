@@ -77,7 +77,15 @@
         }
     });
 </script>
-
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?d467c50a418036fc968b34049f344a7f";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>
 <!-- sakura shader -->
 
 <script id="sakura_point_vsh" type="x-shader/x_vertex">

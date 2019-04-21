@@ -3,6 +3,15 @@ by nzl1998
 * WebSite:www.iacblog.com
 */
 
+#sakura{
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
 
 
 #app{
@@ -11,7 +20,9 @@ by nzl1998
     height: 100vh;
     top: 0;
     left: 0;
+    z-index: 20;
 }
+
 
 .container{
     max-width: 80%;
