@@ -28,7 +28,7 @@
             <div class="links">
                 <ul class="">
                     <li>
-                        <a href="https://github.com/CrazyNing98" target="_blank" title="Github">Github</a>
+                        <a href="https://github.com/NiZerin" target="_blank" title="Github">Github</a>
                     </li>
                     <li>
                         <a href="https://laravel-china.org/users/32812" target="_blank" title="Laravel-China">Laravel-China</a>
@@ -41,13 +41,13 @@
             <div class="links">
                 <ul class="">
                     <li>
-                        <a href="https://www.iacblog.com/" target="_blank" title="Blog" >My Blog</a>
+                        <a href="https://www.iacblog.com/" target="_blank" title="Blog" >Blog</a>
                     </li>
                     <li>
-                        <a href="/resume" >My Resume</a>
+                        <a href="/resume" >Resume</a>
                     </li>
                     <li>
-                        <a href="/record" >My Record</a>
+                        <a href="/record" >Record</a>
                     </li>
                 </ul>
             </div>
