@@ -61,7 +61,7 @@
     <div class="bigtitle m-b-20 m-l-auto m-r-auto m-t-0 text-center fs-22">浙江椒图科技 / 技术管理岗 / 2017年2月 ~ 2018年5月</div>
     <div class="lump m-l-auto m-r-auto card m-b-20">
         <p class="m-b-20">公司主要业务方向为公安部门（浙江椒图物联网科技有限公司）以及电力部门（浙江椒图电力科技有限公司 / 嘉兴市鸿云电力设备有限公司）。</p>
-        <p class="m-b-20">以下列出部分任职期间负责或参与的项目，展示本人职能。</p>
+        <p>以下列出部分任职期间负责或参与的项目，展示本人职能。</p>
     </div>
     <div class="cards m-b-20 m-l-auto m-r-auto m-t-0">
         <div class="card m-b-20">
